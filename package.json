@@ -1,0 +1,20 @@
+{
+  "name": "eduverify-credential-protocol",
+  "version": "1.0.0",
+  "description": "EduVerify: decentralized academic credential registry (educational prototype)",
+  "license": "MIT",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "node": "hardhat node",
+    "demo": "hardhat run scripts/deploy_and_demo.js",
+    "demo:local": "hardhat run scripts/deploy_and_demo.js --network localhost"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.29.2"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.6.1"
+  }
+}
